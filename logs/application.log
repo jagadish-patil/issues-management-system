@@ -1,0 +1,105 @@
+2024-05-24 17:34:57 [main] INFO  c.j.i.IssuesManagementSystemBackendApplication - Starting IssuesManagementSystemBackendApplication using Java 17.0.11 with PID 53213 (/Users/apple/Desktop/issues_management_backend/issues-management-backend/target/classes started by apple in /Users/apple/Desktop/issues_management_backend/issues-management-backend)
+2024-05-24 17:34:57 [main] INFO  c.j.i.IssuesManagementSystemBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2024-05-24 17:34:58 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-24 17:34:58 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 81 ms. Found 2 JPA repository interfaces.
+2024-05-24 17:34:58 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9080 (http)
+2024-05-24 17:34:58 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-05-24 17:34:58 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-05-24 17:34:58 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-05-24 17:34:58 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1500 ms
+2024-05-24 17:34:59 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-24 17:34:59 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-05-24 17:34:59 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-05-24 17:34:59 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-24 17:34:59 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-05-24 17:34:59 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@fcf9525
+2024-05-24 17:34:59 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-05-24 17:34:59 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-24 17:35:00 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-24 17:35:00 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-24 17:35:01 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-24 17:35:01 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-05-24 17:35:01 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 4 mappings in 'requestMappingHandlerMapping'
+2024-05-24 17:35:01 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-05-24 17:35:01 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-05-24 17:35:01 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-05-24 17:35:01 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9080 (http) with context path '/'
+2024-05-24 17:35:01 [main] INFO  c.j.i.IssuesManagementSystemBackendApplication - Started IssuesManagementSystemBackendApplication in 4.829 seconds (process running for 5.985)
+2024-05-24 17:39:57 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2024-05-24 17:39:57 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-24 17:39:57 [RMI TCP Connection(5)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-05-24 17:39:57 [RMI TCP Connection(5)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-05-24 17:40:02 [main] INFO  c.j.i.IssuesManagementSystemBackendApplication - Starting IssuesManagementSystemBackendApplication using Java 17.0.11 with PID 54294 (/Users/apple/Desktop/issues_management_backend/issues-management-backend/target/classes started by apple in /Users/apple/Desktop/issues_management_backend/issues-management-backend)
+2024-05-24 17:40:02 [main] INFO  c.j.i.IssuesManagementSystemBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2024-05-24 17:40:02 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-24 17:40:02 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 52 ms. Found 2 JPA repository interfaces.
+2024-05-24 17:40:03 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9080 (http)
+2024-05-24 17:40:03 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-05-24 17:40:03 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-05-24 17:40:03 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-05-24 17:40:03 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1335 ms
+2024-05-24 17:40:03 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-24 17:40:03 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-05-24 17:40:03 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-05-24 17:40:03 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-24 17:40:03 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-05-24 17:40:04 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6e93b0e7
+2024-05-24 17:40:04 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-05-24 17:40:04 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-24 17:40:05 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-24 17:40:05 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-24 17:40:05 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-24 17:40:05 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-05-24 17:40:05 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 4 mappings in 'requestMappingHandlerMapping'
+2024-05-24 17:40:05 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-05-24 17:40:05 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-05-24 17:40:05 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-05-24 17:40:06 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9080 (http) with context path '/'
+2024-05-24 17:40:06 [main] INFO  c.j.i.IssuesManagementSystemBackendApplication - Started IssuesManagementSystemBackendApplication in 4.477 seconds (process running for 5.331)
+2024-05-24 17:40:25 [http-nio-9080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-24 17:40:25 [http-nio-9080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-05-24 17:40:25 [http-nio-9080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2024-05-24 17:40:25 [http-nio-9080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2024-05-24 17:40:25 [http-nio-9080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2024-05-24 17:40:25 [http-nio-9080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@71ac5723
+2024-05-24 17:40:25 [http-nio-9080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@329efc61
+2024-05-24 17:40:25 [http-nio-9080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-05-24 17:40:25 [http-nio-9080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2024-05-24 17:40:25 [http-nio-9080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/", parameters={}
+2024-05-24 17:40:25 [http-nio-9080-exec-1] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-05-24 17:40:25 [http-nio-9080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-05-24 17:40:26 [http-nio-9080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/scripts.js", parameters={}
+2024-05-24 17:40:26 [http-nio-9080-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-05-24 17:40:26 [http-nio-9080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-05-24 17:40:50 [http-nio-9080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/issues", parameters={multipart}
+2024-05-24 17:40:50 [http-nio-9080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.jp.issues_management.controller.IssueController#reportIssue(String, String, String, MultipartFile)
+2024-05-24 17:40:50 [http-nio-9080-exec-3] INFO  c.j.i.controller.IssueController - Email: sdf@gmail.com
+2024-05-24 17:40:50 [http-nio-9080-exec-3] INFO  c.j.i.controller.IssueController - Category: Software Installation
+2024-05-24 17:40:50 [http-nio-9080-exec-3] INFO  c.j.i.controller.IssueController - Description: cxz
+2024-05-24 17:40:50 [http-nio-9080-exec-3] INFO  c.j.i.controller.IssueController - Image File: 
+2024-05-24 17:40:50 [http-nio-9080-exec-3] INFO  c.j.i.controller.IssueController - Issue reported successfully by: sdf@gmail.com
+2024-05-24 17:40:50 [http-nio-9080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-05-24 17:40:50 [http-nio-9080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.jp.issues_management.entity.Issue@54f9c2b1]
+2024-05-24 17:40:50 [http-nio-9080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-05-24 17:40:54 [http-nio-9080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/issues?email=sdf%40gmail.com", parameters={masked}
+2024-05-24 17:40:54 [http-nio-9080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.jp.issues_management.controller.IssueController#getIssuesByEmail(String)
+2024-05-24 17:40:54 [http-nio-9080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-05-24 17:40:54 [http-nio-9080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[com.jp.issues_management.entity.Issue@403e7c8c]]
+2024-05-24 17:40:54 [http-nio-9080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-05-24 17:41:59 [http-nio-9080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/issues", parameters={multipart}
+2024-05-24 17:41:59 [http-nio-9080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.jp.issues_management.controller.IssueController#reportIssue(String, String, String, MultipartFile)
+2024-05-24 17:41:59 [http-nio-9080-exec-6] INFO  c.j.i.controller.IssueController - Email: sdf@gmail.com
+2024-05-24 17:41:59 [http-nio-9080-exec-6] INFO  c.j.i.controller.IssueController - Category: Malfunction
+2024-05-24 17:41:59 [http-nio-9080-exec-6] INFO  c.j.i.controller.IssueController - Description: cxz2
+2024-05-24 17:41:59 [http-nio-9080-exec-6] INFO  c.j.i.controller.IssueController - Image File: seo1.jpeg
+2024-05-24 17:41:59 [http-nio-9080-exec-6] INFO  c.j.i.service.ImageService - Image saved successfully: seo1.jpeg
+2024-05-24 17:41:59 [http-nio-9080-exec-6] INFO  c.j.i.controller.IssueController - Image uploaded for issue by: sdf@gmail.com
+2024-05-24 17:41:59 [http-nio-9080-exec-6] INFO  c.j.i.controller.IssueController - Issue reported successfully by: sdf@gmail.com
+2024-05-24 17:41:59 [http-nio-9080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-05-24 17:41:59 [http-nio-9080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.jp.issues_management.entity.Issue@7f6c10e7]
+2024-05-24 17:41:59 [http-nio-9080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-05-24 17:42:01 [http-nio-9080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/issues?email=sdf%40gmail.com", parameters={masked}
+2024-05-24 17:42:01 [http-nio-9080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.jp.issues_management.controller.IssueController#getIssuesByEmail(String)
+2024-05-24 17:42:01 [http-nio-9080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-05-24 17:42:01 [http-nio-9080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[com.jp.issues_management.entity.Issue@62853203, com.jp.issues_management.entity.Issue@581c73aa]]
+2024-05-24 17:42:01 [http-nio-9080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
